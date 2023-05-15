@@ -107,8 +107,34 @@ a {
 }
 
 .navs {
-  height: 3em;
+  height: 5em;
   background-color: #0071ff33;
+  display: flex;
+  padding-left: 3rem; 
+  padding-right: 3rem; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
+  font-size: xx-large;
+}
+
+.navcontent {
+  display: flex;
+  gap: 2em;
+  list-style-type: none;
 }
 
 
+.text {
+  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
+  font-size:medium;
+}
+
+.text:hover {
+  color: blue;
+}
